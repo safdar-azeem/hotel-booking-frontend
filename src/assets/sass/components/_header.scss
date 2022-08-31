@@ -2,6 +2,24 @@
     .header{
         @apply flex justify-between items-center content-center mt-3
     }
+    .header-img{
+        @apply rounded-lg mt-5 
+    }
+   .hero-section{
+    @apply  h-full bg-white mt-5 p-10 rounded-lg flex
+   
+   }
+   .first-section{
+    @apply flex-1 mr-28 
+   }
+   .second-section{
+    @apply  flex-1
+   
+   }
+   .desc-text{
+    @apply mr-3
+   
+   }
 }
 
 
