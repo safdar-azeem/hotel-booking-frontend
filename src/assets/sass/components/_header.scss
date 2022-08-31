@@ -1,0 +1,12 @@
+@layer components{
+    .header{
+        @apply flex justify-between items-center content-center mt-3
+    }
+}
+
+
+// @layer components {
+//     .card {
+//        @apply flex items-center;
+//     }
+//   }
