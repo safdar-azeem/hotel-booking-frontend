@@ -1,13 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../sass/components/header'
 
 // @layer components {
 //     .card {
 //        @apply flex items-center;
 //     }
 //   }
-
-.home{
-    margin-top: 20px;
-}
