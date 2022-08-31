@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container } from 'semantic-ui-react'
+import '../../assets/sass/main.scss'
+import Logo from '../../components/reuseable/Logo'
 
 const Home = () => {
 	return (
-		<section>
-			<h1>Home</h1>
-		</section>
+		<Container  className='home'>
+			<Logo/>
+		</Container>
 	)
 }
 
