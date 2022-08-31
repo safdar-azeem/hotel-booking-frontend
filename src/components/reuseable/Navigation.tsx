@@ -9,27 +9,32 @@ const Navigation = () => {
     <div>
        <Menu secondary>
           <Menu.Item
-            name='home'
-            active={activeItem === 'home'}
+            name='Home'
+            className='border-r-4 border-indigo-500'
+            active={activeItem === 'Home'}
             onClick={handleItemClick}
           />
           <Menu.Item
-            name='messages'
-            active={activeItem === 'messages'}
+            name='Hotels'
+            active={activeItem === 'Hotels'}
             onClick={handleItemClick}
           />
           <Menu.Item
-            name='friends'
-            active={activeItem === 'friends'}
+            name='Rooms'
+            active={activeItem === 'Rooms'}
             onClick={handleItemClick}
           />
-          <Menu.Menu position='right'>
             <Menu.Item
-              name='logout'
-              active={activeItem === 'logout'}
+              name='Reservation'
+              active={activeItem === 'Reservation'}
               onClick={handleItemClick}
             />
-          </Menu.Menu>
+             <Menu.Item
+              name='About'
+              active={activeItem === 'About'}
+              onClick={handleItemClick}
+            />
+            
         </Menu>
 
     </div>
