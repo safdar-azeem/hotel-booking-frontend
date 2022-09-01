@@ -12,4 +12,6 @@ export enum Routes {
 	Login = '/login',
 	SignUp = '/signup',
 	Dashboard = '/dashboard',
+	Hotels = '/hotels',
+	Rooms = '/rooms',
 }
