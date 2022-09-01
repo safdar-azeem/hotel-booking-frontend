@@ -1,7 +1,7 @@
 import Header from '../../components/reusable/Header'
 
-const Home = () => {
+const Hotels = () => {
 	return <Header />
 }
 
-export default Home
+export default Hotels
