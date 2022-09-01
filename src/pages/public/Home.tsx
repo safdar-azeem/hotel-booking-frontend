@@ -1,11 +1,7 @@
-import React from 'react'
+import Header from '../../components/reusable/Header'
 
 const Home = () => {
-	return (
-		<section>
-			<h1>Home</h1>
-		</section>
-	)
+	return <Header />
 }
 
 export default Home
