@@ -19,11 +19,11 @@ place to stay</Header>
   </section>
     </section>
     <section className='search'>
-    <Input icon='map marker alternate' iconPosition='left' placeholder='Where are you going' />
-    <Input icon='calendar alternate' iconPosition='left' placeholder='Check-in--Check-out' />
-    <Input icon='users' iconPosition='left' placeholder='Adults' />
-    <Input icon='bed' iconPosition='left' placeholder='Rooms' />
-  <Button secondary>Search</Button>
+    <Input icon='map marker alternate' className='mr-3' iconPosition='left' placeholder='Where are you going' />
+    <Input icon='calendar alternate' className='mr-3' iconPosition='left' placeholder='Check-in--Check-out' />
+    <Input icon='users' className='mr-3' iconPosition='left' placeholder='Adults' />
+    <Input icon='bed' className='mr-3' iconPosition='left' placeholder='Rooms' />
+  <Button className='ml-3' secondary>Search</Button>
 
   </section>
     </>
