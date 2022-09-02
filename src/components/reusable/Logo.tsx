@@ -1,12 +1,16 @@
-import React from 'react'
-import { Header } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
+import { Button } from 'semantic-ui-react'
 
-const Logo = () => {
-	return (
-		<div>
-			<Header as='h2' icon='bed' content='Book-Me' />
-		</div>
-	)
-}
+const Logo = () => (
+	<Button
+		basic
+		as={Link}
+		to='/'
+		size='large'
+		icon='bed'
+		content='Book-Me'
+		className='shadow-none'
+	/>
+)
 
 export default Logo
