@@ -1,0 +1,28 @@
+@layer components{
+    .header{
+        @apply flex justify-between items-center content-center mt-3
+    }
+   
+   .hero-section{
+    @apply relative h-full bg-white mt-1 p-10 rounded-lg flex 
+   }
+   .search{
+   @apply absolute bottom-64 left-44 bg-white p-3 rounded-md flex justify-between flex-wrap
+   
+   }
+   .date{
+    @apply absolute top-14 right-0
+    
+    }
+    .input-span{
+        @apply mr-3 w-64 relative text-gray-400 border border-gray-300 rounded-md p-2 
+        
+        }
+}
+
+
+// @layer components {
+//     .card {
+//        @apply flex items-center;
+//     }
+//   }
