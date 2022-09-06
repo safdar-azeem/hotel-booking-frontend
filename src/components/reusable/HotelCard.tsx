@@ -23,7 +23,6 @@ const Hotel = () => {
 					src={src}
 					className=' h-56 w-full rounded-md'
 				/>
-				<Card.Header>Lahore</Card.Header>
 				<HeaderSubheader className='card-text-section'>
 					<HeaderSubheader className='text-gray-500 mt-4'>
 						<Icon name='map marker alternate' />
