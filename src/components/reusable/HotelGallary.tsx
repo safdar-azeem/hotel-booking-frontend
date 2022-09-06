@@ -6,19 +6,9 @@ const HotelGellary = () => {
 	return (
 		<Grid>
 			<Grid.Row className='gap-y-10'>
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
-				<Hotel />
+				{[...Array(10)].map((_, i) => (
+					<Hotel />
+				))}
 			</Grid.Row>
 		</Grid>
 	)
