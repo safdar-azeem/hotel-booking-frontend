@@ -43,6 +43,7 @@ const DatePicker = () => {
 					onChange={(item) => setDate([item.selection])}
 					moveRangeOnFirstSelection={false}
 					ranges={date}
+					minDate={new Date()}
 				/>
 			)}
 		</>
