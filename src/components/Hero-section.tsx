@@ -12,7 +12,7 @@ import '../assets/sass/main.scss'
 import 'react-date-range/dist/styles.css' // main css file
 import 'react-date-range/dist/theme/default.css' // theme css file
 import { useNavigate } from 'react-router-dom'
-import DatePicker from './Date-Picker'
+import DatePicker from './reusable/Date-Picker'
 
 const HeroSection = () => {
 	const src =
