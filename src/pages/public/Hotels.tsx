@@ -4,7 +4,7 @@ import HotelGellary from '../../components/reusable/HotelGallary'
 
 const Hotels = () => {
 	return (
-		<HeaderContent className='  bg-gray-100'>
+		<HeaderContent>
 			<Header />
 			<Container>
 				<HotelGellary />
