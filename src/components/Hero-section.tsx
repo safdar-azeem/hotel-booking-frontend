@@ -13,17 +13,15 @@ import 'react-date-range/dist/styles.css' // main css file
 import 'react-date-range/dist/theme/default.css' // theme css file
 import { useNavigate } from 'react-router-dom'
 import DatePicker from './reusable/Date-Picker'
+import SearchOptions from './reusable/Search-Options'
+import SearchComponent from './reusable/Search-Component'
 
 const HeroSection = () => {
 	const src =
 		'https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80'
 
 	const [distination, setDistination] = useState('')
-	const [openOptions, setOpenOptions] = useState(false)
-	const [options, setOptions] = useState({
-		adult: 1,
-		room: 1,
-	})
+
 	const [openDate, setOpenDate] = useState(false)
 	const [date, setDate] = useState([
 		{
@@ -73,33 +71,8 @@ const HeroSection = () => {
 					/>
 				</Grid.Column>
 			</Grid>
-			<Container className='flex justify-between p-3 w-11/12 rounded-md flex-wrap absolute top-3/4 bg-white '>
-				<div className='flex-2'>
-					<Input
-						icon='map marker alternate'
-						iconPosition='left'
-						placeholder='Search users...'
-					/>
-				</div>
 
-				<div className='relative'>
-					<DatePicker />
-				</div>
-				<div>
-					<Button
-						icon='user'
-						iconPosition='left'
-						content={`${options.adult} adult--${options.room} room`}
-						basic
-					/>
-				</div>
-				<div>
-					<Button
-						content='Search'
-						secondary
-					/>
-				</div>
-			</Container>
+			<SearchComponent />
 		</Container>
 	)
 }
