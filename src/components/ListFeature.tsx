@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Grid, Header, HeaderContent, Icon } from 'semantic-ui-react'
 import Feature from './reusable/Feature'
-import FeatureJson from '../json/Feautes.json'
+import FeatureJson from '../json/features.json'
 import { IFeature } from '../types/feature.type'
 
 const ListFeature = () => {
