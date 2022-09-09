@@ -21,6 +21,8 @@ const SearchComponent = () => {
 
 	const handleSearch = () => {
 		if (distination !== '') {
+			setError('')
+
 			navigate(Routes.Hotels)
 		} else {
 			return setError('Please enter location!')
@@ -43,6 +45,7 @@ const SearchComponent = () => {
 							setDistination(data.value)
 						}}
 					/>
+					<div className=' text-rose-600 ml-3'>{error}</div>
 				</div>
 
 				<div className='relative'>
@@ -71,7 +74,6 @@ const SearchComponent = () => {
 					/>
 				</div>
 			</Container>
-			<div className=' text-rose-600'>{error}</div>
 		</>
 	)
 }
