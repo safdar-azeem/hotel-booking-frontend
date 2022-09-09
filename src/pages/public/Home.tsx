@@ -1,11 +1,11 @@
-import Featureslist from '../../components/Features-list'
+import ListFeature from '../../components/ListFeature'
 import Header from '../../components/reusable/Header'
 
 const Home = () => {
 	return (
 		<>
 			<Header />
-			<Featureslist />
+			<ListFeature />
 		</>
 	)
 }
