@@ -1,0 +1,50 @@
+[
+	{
+		"id": "1",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	},
+	{
+		"id": "2",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	},
+	{
+		"id": "3",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	},
+	{
+		"id": "4",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	},
+	{
+		"id": "5",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	},
+	{
+		"id": "6",
+		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+		"location": "multan",
+		"hotelTitle": "taunsa",
+		"rating": "4.5",
+		"price": "100"
+	}
+]
