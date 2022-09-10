@@ -18,8 +18,9 @@ const ListFeature = () => {
 						<HeaderContent
 							as={'p'}
 							className='text-gray-500 font-light text-base '>
-							Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit. Minima totam obcaecati eaque autem ea veniam
+							Choose Us beacause we are providing you a lot of
+							features that facilitates the customers, Thank you
+							for choosing us!
 						</HeaderContent>
 					</Header>
 				</Header>
