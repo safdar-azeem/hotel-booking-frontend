@@ -1,26 +1,26 @@
 [
 	{
 		"id": "1",
-		"title": "Title 1",
-		"description": "Description 1",
-		"icon": "shield"
+		"title": "Simple Booking",
+		"description": "Whether you book a hotel online, on the phone, or through a travel agent, it should be a simple process. It should be easy to contact a knowledgeable, helpful person if you have questions, changes to your initial booking, or special requests. Anything else is a red flag.",
+		"icon": "thumbs up"
 	},
 	{
 		"id": "2",
-		"title": "Title 1",
-		"description": "Description 1",
-		"icon": "thumbs up "
+		"title": "Fast, Friendly First Contact",
+		"description": "When you first pull up to a hotel entrance or walk into the lobby, your initial encounter tells you plenty about the type of place you’re staying.",
+		"icon": "thumbs up"
 	},
 	{
 		"id": "3",
-		"title": "Title 1",
-		"description": "Description 1",
-		"icon": "thumbs up "
+		"title": "A Genuinely Cheerful, Helpful, Knowledgeable Staff",
+		"description": "There’s a fundamental difference between fake cheerfulness and genuine warmth. Great hotels hire people with intuitive qualities: observant, empathetic, kind, and funny. Harrison describes them as people “who quietly make guests feel comfortable and important.”",
+		"icon": "thumbs up"
 	},
 	{
 		"id": "4",
-		"title": "Title 1",
-		"description": "Description 1",
-		"icon": "thumbs up "
+		"title": "A Variety of Excellent Food and Drink",
+		"description": "Even if you’re planning on having most of your meals outside the hotel, a solid reputation for on-site restaurants is a good indicator of a hotel’s overall quality.",
+		"icon": "thumbs up"
 	}
 ]
