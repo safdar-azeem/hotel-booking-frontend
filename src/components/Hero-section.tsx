@@ -55,7 +55,7 @@ const HeroSection = () => {
 							Lorem ipsum dolor.heloye to your by ipsum dolorsit
 							with famouse link from will to lorums
 						</Header>
-						<Button secondary>
+						<Button color='violet'>
 							<Icon name='play circle' /> Watch Video
 						</Button>
 					</div>
