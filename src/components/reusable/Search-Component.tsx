@@ -22,7 +22,6 @@ const SearchComponent = () => {
 	const handleSearch = () => {
 		if (distination !== '') {
 			setError('')
-
 			navigate(Routes.Hotels)
 		} else {
 			return setError('Please enter location!')
@@ -36,7 +35,7 @@ const SearchComponent = () => {
 					<Input
 						icon='map marker alternate'
 						iconPosition='left'
-						placeholder='Search users...'
+						placeholder='Where are you going?'
 						value={distination}
 						onChange={(
 							event: React.ChangeEvent<HTMLInputElement>,
@@ -70,7 +69,7 @@ const SearchComponent = () => {
 					<Button
 						onClick={handleSearch}
 						content='Search'
-						secondary
+						color='violet'
 					/>
 				</div>
 			</Container>
