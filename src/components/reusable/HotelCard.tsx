@@ -1,10 +1,9 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Card, Grid, Header, Icon, Image } from 'semantic-ui-react'
 import { Routes } from '../../types/routes.type'
+import { IHotelCard } from '../../types/routes.type'
 
-const Hotel = () => {
-	const src =
-		'https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+const Hotel = ({ hotelCard }) => {
 	return (
 		<Grid.Column
 			largeScreen={4}
@@ -15,14 +14,14 @@ const Hotel = () => {
 				<Card.Content>
 					<Link to={Routes.Hotel}>
 						<Image
-							src={src}
+							src={hotelCard.imgSrc}
 							wrapped
 							ui={false}
 						/>
 					</Link>
 					<Card.Meta className='my-3'>
 						<Icon name='map marker alternate' />
-						<span className='date'>Lahore</span>
+						<span className='date'>{hotelCard.location}</span>
 					</Card.Meta>
 					<Card.Content
 						extra
@@ -31,7 +30,7 @@ const Hotel = () => {
 							<Header
 								as='h3'
 								className='mb-0'>
-								Serena Hotel
+								{hotelCard.hotelTitle}
 							</Header>
 						</Link>
 						<div className='flex items-center'>
@@ -43,7 +42,7 @@ const Hotel = () => {
 							<Header
 								size='tiny'
 								className='flex-grow my-0'>
-								4.5
+								{hotelCard.rating}
 							</Header>
 						</div>
 					</Card.Content>
@@ -54,7 +53,8 @@ const Hotel = () => {
 					<Header
 						size='tiny'
 						className='flex-grow'>
-						$100<span className='text-gray-400'>/Night</span>
+						{hotelCard.price}
+						<span className='text-gray-400'>/Night</span>
 					</Header>
 					<Icon
 						name='bookmark outline'
