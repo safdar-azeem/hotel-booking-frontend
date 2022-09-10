@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import {
 	Button,
 	Checkbox,
@@ -8,14 +9,13 @@ import {
 	ImageGroup,
 } from 'semantic-ui-react'
 import '../../assets/sass/main.scss'
+import { loginImgSrc } from '../../utils/index'
 
 const SignUp = () => {
-	const src =
-		'https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
 	return (
 		<Header className='w-full relative'>
 			<Image
-				src={src}
+				src={loginImgSrc}
 				size='huge'
 				className='w-full h-screen'
 			/>
@@ -41,6 +41,14 @@ const SignUp = () => {
 						Submit
 					</Button>
 				</Form>
+				<span className='text-base'>
+					Already have an Account?{' '}
+					<NavLink
+						className={'ml-4 nav-link border-b-2 text-blue-400'}
+						to={'/login'}>
+						LogIn
+					</NavLink>
+				</span>
 			</Header>
 		</Header>
 	)
