@@ -16,3 +16,12 @@ export enum Routes {
 	Hotel = '/hotel:id',
 	Rooms = '/rooms',
 }
+
+export interface IHotelCard {
+	id: string
+	imgSrc: string
+	location: string
+	hotelTitle: string
+	rating: string
+	price: number
+}
