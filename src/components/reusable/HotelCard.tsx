@@ -19,7 +19,7 @@ const Hotel = ({ hotel }: IHotelProps) => {
 					<Card.Content>
 						<Link to={Routes.Hotel}>
 							<Image
-								className='rounded-md'
+								className='rounded-md w-full h-40'
 								src={hotel.imgSrc}
 								wrapped
 								ui={false}
