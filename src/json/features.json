@@ -1,26 +1,26 @@
 [
 	{
 		"id": "1",
-		"title": "Simple Booking",
-		"description": "Whether you book a hotel online, on the phone, or through a travel agent, it should be a simple process. It should be easy to contact a knowledgeable, helpful person if you have questions, changes to your initial booking, or special requests. Anything else is a red flag.",
-		"icon": "thumbs up"
+		"title": "Easy and reliable online transactions",
+		"description": "We provide a secure and reliable online transaction system for our customers. We use the latest technology to ensure that your information is safe and secure.",
+		"icon": "shield"
 	},
 	{
 		"id": "2",
-		"title": "Fast, Friendly First Contact",
-		"description": "When you first pull up to a hotel entrance or walk into the lobby, your initial encounter tells you plenty about the type of place you’re staying.",
-		"icon": "thumbs up"
+		"title": "Real-time booking",
+		"description": "With our real-time booking system, you can book your tickets in just a few clicks. You can also check the availability of your preferred seats and book them in advance.",
+		"icon": "time"
 	},
 	{
 		"id": "3",
-		"title": "A Genuinely Cheerful, Helpful, Knowledgeable Staff",
-		"description": "There’s a fundamental difference between fake cheerfulness and genuine warmth. Great hotels hire people with intuitive qualities: observant, empathetic, kind, and funny. Harrison describes them as people “who quietly make guests feel comfortable and important.”",
-		"icon": "thumbs up"
+		"title": "Price match guarantee",
+		"description": " We offer the best prices for our tickets. If you find a lower price for the same seats, we will match it and give you a discount.",
+		"icon": "credit card"
 	},
 	{
 		"id": "4",
-		"title": "A Variety of Excellent Food and Drink",
-		"description": "Even if you’re planning on having most of your meals outside the hotel, a solid reputation for on-site restaurants is a good indicator of a hotel’s overall quality.",
-		"icon": "thumbs up"
+		"title": "More than 2000+ company partner",
+		"description": "We have more than 2000+ company partner. We have a wide range of partners to ensure that you get the best deals for your tickets.",
+		"icon": "shopping bag"
 	}
 ]
