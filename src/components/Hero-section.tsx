@@ -54,7 +54,7 @@ const HeroSection = () => {
 							Find your perfect place to stay
 						</Header>
 						<Header
-							className='text-gray-500 text-2xl font-thin hero-text mb-10'
+							className='text-gray-500 text-xl font-thin hero-text mb-10'
 							as={'p'}>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Suscipit error veritatis hic mollitia culpa
