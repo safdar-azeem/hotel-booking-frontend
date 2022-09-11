@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"title": "Easy and reliable online transactions",
+		"description": "We provide a secure and reliable online transaction system for our customers. We use the latest technology to ensure that your information is safe and secure.",
+		"icon": "shield"
+	},
+	{
+		"id": "2",
+		"title": "Real-time booking",
+		"description": "With our real-time booking system, you can book your tickets in just a few clicks. You can also check the availability of your preferred seats and book them in advance.",
+		"icon": "time"
+	},
+	{
+		"id": "3",
+		"title": "Price match guarantee",
+		"description": " We offer the best prices for our tickets. If you find a lower price for the same seats, we will match it and give you a discount.",
+		"icon": "credit card"
+	},
+	{
+		"id": "4",
+		"title": "More than 2000+ company partner",
+		"description": "We have more than 2000+ company partner. We have a wide range of partners to ensure that you get the best deals for your tickets.",
+		"icon": "shopping bag"
+	}
+]
