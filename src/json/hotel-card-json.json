@@ -1,50 +1,50 @@
 [
 	{
 		"id": "1",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
-		"price": "100"
+		"imgSrc": "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80",
+		"location": "Multan Cant",
+		"hotelTitle": "Ramadha Hotel",
+		"rating": "4.1",
+		"price": "70"
 	},
 	{
 		"id": "2",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
-		"price": "100"
+		"imgSrc": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+		"location": "Islamabad",
+		"hotelTitle": "Serina Hotel",
+		"rating": "4.9",
+		"price": "110"
 	},
 	{
 		"id": "3",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
-		"price": "100"
+		"imgSrc": "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+		"location": "Taunsa",
+		"hotelTitle": "Taj Mahal",
+		"rating": "4.6",
+		"price": "90"
 	},
 	{
 		"id": "4",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
-		"price": "100"
+		"imgSrc": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+		"location": "Multan",
+		"hotelTitle": "Shangrilla Hotel",
+		"rating": "5.0",
+		"price": "150"
 	},
 	{
 		"id": "5",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
-		"price": "100"
+		"imgSrc": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+		"location": "Multan",
+		"hotelTitle": "Avari Express",
+		"rating": "4.8",
+		"price": "120"
 	},
 	{
 		"id": "6",
-		"imgSrc": "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
-		"location": "multan",
-		"hotelTitle": "taunsa",
-		"rating": "4.5",
+		"imgSrc": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+		"location": "Multan",
+		"hotelTitle": "Flatties",
+		"rating": "4.7",
 		"price": "100"
 	}
 ]
