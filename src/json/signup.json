@@ -1,0 +1,37 @@
+[
+	{
+		"id": "1",
+		"label": "Name",
+		"type": "text",
+		"placeholder": "Please enter your Name",
+		"ErrorMessage": "Please enter your Name",
+		"required": true
+	},
+
+	{
+		"id": "2",
+		"label": "Email",
+		"type": "email",
+		"placeholder": "Please enter your email",
+		"ErrorMessage": "Please enter a valid email address",
+		"required": true
+	},
+
+	{
+		"id": "3",
+		"label": "Password",
+		"type": "Password",
+		"placeholder": "Please enter your Password",
+		"ErrorMessage": "Please enter a valid Password",
+		"required": true
+	},
+
+	{
+		"id": "4",
+		"label": "Password",
+		"type": "Password",
+		"placeholder": "Please confirm your Password",
+		"ErrorMessage": "Password does not match",
+		"required": true
+	}
+]
