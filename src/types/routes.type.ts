@@ -15,4 +15,5 @@ export enum Routes {
 	Hotels = '/hotels',
 	Hotel = '/hotel:id',
 	Rooms = '/rooms',
+	DemoVideo = '/video',
 }
