@@ -11,10 +11,11 @@ import {
 import '../assets/sass/main.scss'
 import 'react-date-range/dist/styles.css' // main css file
 import 'react-date-range/dist/theme/default.css' // theme css file
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import DatePicker from './reusable/Date-Picker'
 import SearchOptions from './reusable/Search-Options'
 import SearchComponent from './reusable/Search-Component'
+import { Routes } from '../types/routes.type'
 
 const HeroSection = () => {
 	const src =
@@ -55,7 +56,11 @@ const HeroSection = () => {
 							Lorem ipsum dolor.heloye to your by ipsum dolorsit
 							with famouse link from will to lorums
 						</Header>
-						<Button color='violet'>
+						<Button
+							onClick={() => {
+								navigate(Routes.DemoVideo)
+							}}
+							color='violet'>
 							<Icon name='play circle' /> Watch Video
 						</Button>
 					</div>
