@@ -10,16 +10,25 @@ const Header = () => {
 	const handleToggleActive = () => setIsToggleActvie(!isToggleActive)
 
 	return (
-		<Container>
-			<Grid columns={3} padded>
-				<Grid.Column mobile={16} tablet={4} computer={4}>
+		<Container className=''>
+			<Grid
+				columns={3}
+				padded>
+				<Grid.Column
+					mobile={16}
+					tablet={4}
+					computer={4}>
 					<Grid columns={2}>
-						<Grid.Column mobile={8} computer={16}>
+						<Grid.Column
+							mobile={8}
+							computer={16}>
 							<Logo />
 						</Grid.Column>
 						<Grid.Column textAlign='right'>
 							<div className='md:hidden block'>
-								<Button icon onClick={handleToggleActive}>
+								<Button
+									icon
+									onClick={handleToggleActive}>
 									<Icon name='bars' />
 								</Button>
 							</div>
