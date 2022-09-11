@@ -23,7 +23,7 @@ const SearchOptions = ({ options, setOptions }) => {
 				<div className='optionCounter'>
 					<Button
 						onClick={() => handleOption('adult', 'd')}
-						className='optionCounterBtn'
+						className='optionCounterBtn text-left md:text-center'
 						content='-'
 						size='tiny'
 						basic
