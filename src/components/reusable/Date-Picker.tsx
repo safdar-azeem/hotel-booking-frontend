@@ -22,6 +22,7 @@ const DatePicker = () => {
 		<>
 			<Button
 				icon='calendar '
+				className='w-full whitespace-nowrap text-left md:text-center'
 				content={`${
 					date
 						? `${format(
@@ -38,7 +39,7 @@ const DatePicker = () => {
 			/>
 			{openDate && (
 				<DateRange
-					className='absolute left-0 top-12'
+					className='absolute left-0 top-12 z-20'
 					editableDateInputs={true}
 					onChange={(item) => setDate([item.selection])}
 					moveRangeOnFirstSelection={false}
