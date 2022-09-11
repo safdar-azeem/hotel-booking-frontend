@@ -1,8 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { Button, Container, Grid, Icon } from 'semantic-ui-react'
 import LoginButton from '../../components/reusable/Login-button'
 import Logo from '../../components/reusable/Logo'
 import Navigation from '../../components/reusable/Navigation'
+import { Routes } from '../../types/routes.type'
 
 const Header = () => {
 	const [isToggleActive, setIsToggleActvie] = React.useState(false)
@@ -51,7 +53,18 @@ const Header = () => {
 					className={`md:text-right md:block  ${
 						isToggleActive ? 'block' : 'hidden'
 					}`}>
-					<LoginButton />
+					<Button
+						as={NavLink}
+						color='violet'
+						to={Routes.Login}>
+						Sign in
+					</Button>
+					<Button
+						as={NavLink}
+						color='violet'
+						to={Routes.SignUp}>
+						Sign Up
+					</Button>
 				</Grid.Column>
 			</Grid>
 		</Container>
