@@ -14,12 +14,6 @@ export const publicRoutes: IRoute[] = [
 		element: lazy(() => import('../pages/public/Hotels')),
 		childrens: [],
 	},
-	{
-		path: Routes.DemoVideo,
-		type: 'public',
-		element: lazy(() => import('../components/reusable/Hotel-Video')),
-		childrens: [],
-	},
 ]
 
 export const privateRoutes: IRoute[] = [
