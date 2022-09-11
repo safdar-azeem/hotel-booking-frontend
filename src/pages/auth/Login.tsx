@@ -1,45 +1,57 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { Button, Form, Header, Image } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
+import { Button, Checkbox, Form, Header } from 'semantic-ui-react'
 import '../../assets/sass/main.scss'
-import { loginImgSrc } from '../../utils/index'
+import { Routes } from '../../types/routes.type'
+import loginJson from '../../json/login.json'
+import { IForm } from '../../types/forms.type'
 
 const Login = () => {
 	return (
-		<Header className='w-full relative'>
-			<Image
-				src={loginImgSrc}
-				size='huge'
-				className='w-full h-screen'
-			/>
-			<Header className='form-header p-10 '>
-				<Header className='sign-up-text'>Login Your Account</Header>
-				<Form>
-					<Form.Field>
-						<label>Enter Your Email</label>
-						<input placeholder='Enter Your Email' />
-					</Form.Field>
-					<Form.Field>
-						<label>Enter Your Password</label>
-						<input placeholder='Enter Your Password' />
-					</Form.Field>
-					<Button
-						secondary
-						type='submit'
-						className='w-full mt-5'>
-						Submit
-					</Button>
-				</Form>
-				<span className='text-base'>
-					Need an Account?{' '}
-					<NavLink
-						className={'ml-4 nav-link border-b-2 text-blue-400'}
-						to={'/signup'}>
-						SignUp
-					</NavLink>
-				</span>
+		<Form className='p-10 mx-auto mt-20'>
+			<Header
+				as='h2'
+				textAlign='center'>
+				Login Your Account
 			</Header>
-		</Header>
+
+			{loginJson.map((inputField: IForm) => {
+				return (
+					<Form.Field>
+						<Form.Input
+							error={
+								false && {
+									content: inputField.ErrorMessage,
+									pointing: 'below',
+								}
+							}
+							fluid
+							size='large'
+							type={inputField.type}
+							label={inputField.label}
+							placeholder={inputField.placeholder}
+							id={inputField.id}
+						/>
+					</Form.Field>
+				)
+			})}
+
+			<Form.Field>
+				<Checkbox label='Remember me' />
+			</Form.Field>
+			<Button
+				type='submit'
+				color='violet'
+				size='large'
+				fluid>
+				Login
+			</Button>
+			<Header as='h6'>
+				<span className='text-gray-500 mr-2'>
+					Don't have an account?
+				</span>
+				<Link to={Routes.SignUp}>Sigup</Link>
+			</Header>
+		</Form>
 	)
 }
 
