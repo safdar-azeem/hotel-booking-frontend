@@ -3,8 +3,7 @@ import Header from '../../components/reusable/Header'
 
 const Home = () => {
 	return (
-		<div className=' bg-gray-300'>
-			{' '}
+		<div>
 			<Header />
 			<HeroSection />
 		</div>
