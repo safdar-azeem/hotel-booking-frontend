@@ -1,0 +1,19 @@
+[
+	{
+		"id": "1",
+		"label": "Email",
+		"type": "email",
+		"placeholder": "Please enter your email",
+		"ErrorMessage": "Please enter a valid email address",
+		"required": true
+	},
+
+	{
+		"id": "2",
+		"label": "Password",
+		"type": "Password",
+		"placeholder": "Please enter your Password",
+		"ErrorMessage": "Please enter a valid Password",
+		"required": true
+	}
+]
