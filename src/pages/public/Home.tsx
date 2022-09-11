@@ -7,7 +7,9 @@ const Home = () => {
 		<>
 			<Header />
 			<HeroSection />
-			<ListFeature />
+			<div className='mt-40'>
+				<ListFeature />
+			</div>
 		</>
 	)
 }
