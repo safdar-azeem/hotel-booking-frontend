@@ -13,5 +13,7 @@ export enum Routes {
 	SignUp = '/signup',
 	Dashboard = '/dashboard',
 	Hotels = '/hotels',
+	Hotel = '/hotel:id',
 	Rooms = '/rooms',
+	DemoVideo = '/video',
 }
