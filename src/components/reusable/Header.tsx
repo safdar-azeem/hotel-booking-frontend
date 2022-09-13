@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Button, Container, Grid, Icon } from 'semantic-ui-react'
-import LoginButton from '../../components/reusable/Login-button'
 import Logo from '../../components/reusable/Logo'
 import Navigation from '../../components/reusable/Navigation'
 import { Routes } from '../../types/routes.type'
