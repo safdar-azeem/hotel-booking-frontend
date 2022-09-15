@@ -1,11 +1,23 @@
 import { Link } from 'react-router-dom'
-import { Button, Checkbox, Form, Header } from 'semantic-ui-react'
+import {
+	Button,
+	Checkbox,
+	Form,
+	Header,
+	InputOnChangeData,
+} from 'semantic-ui-react'
 import '../../assets/sass/main.scss'
 import { Routes } from '../../types/routes.type'
 import loginJson from '../../json/login.json'
 import { IForm } from '../../types/forms.type'
+import { useState } from 'react'
+import { createInitialState } from '../../utils/createInitialState'
 
 const Login = () => {
+	const [formState, setFormState] = useState<any>(
+		createInitialState(loginJson)
+	)
+
 	return (
 		<Form className='p-10 mx-auto mt-20'>
 			<Header
@@ -26,8 +38,18 @@ const Login = () => {
 							}
 							fluid
 							size='large'
+							onChange={(
+								event: React.ChangeEvent<HTMLInputElement>,
+								data: InputOnChangeData
+							) => {
+								setFormState({
+									...formState,
+									[inputField.name]: data.value,
+								})
+							}}
 							type={inputField.type}
 							label={inputField.label}
+							name={inputField.name}
 							placeholder={inputField.placeholder}
 							id={inputField.id}
 						/>
