@@ -5,4 +5,5 @@ export interface IForm {
 	placeholder: string
 	ErrorMessage: string
 	required: boolean
+	name: string
 }
