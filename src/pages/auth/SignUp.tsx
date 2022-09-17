@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import { Button, Checkbox, Form, Header, Image } from 'semantic-ui-react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { Button, Form, Header } from 'semantic-ui-react'
 import '../../assets/sass/main.scss'
-import { Routes } from '../../types/routes.type'
 import signupJson from '../../json/signup.json'
 import { IForm } from '../../types/forms.type'
+import { Routes } from '../../types/routes.type'
 
 const SignUp = () => {
 	return (
