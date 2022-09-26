@@ -1,6 +1,7 @@
 [
 	{
 		"id": "1",
+		"name": "email",
 		"label": "Email",
 		"type": "email",
 		"placeholder": "Please enter your email",
@@ -10,6 +11,7 @@
 
 	{
 		"id": "2",
+		"name": "password",
 		"label": "Password",
 		"type": "Password",
 		"placeholder": "Please enter your Password",

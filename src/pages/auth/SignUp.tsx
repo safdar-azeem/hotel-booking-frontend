@@ -5,8 +5,10 @@ import '../../assets/sass/main.scss'
 import { Routes } from '../../types/routes.type'
 import signupJson from '../../json/signup.json'
 import { IForm } from '../../types/forms.type'
+import useForm from '../../hooks/useForm'
 
 const SignUp = () => {
+	const { form, handleChange } = useForm(signupJson)
 	return (
 		<Form className='p-10 mx-auto mt-20'>
 			<Header
@@ -27,7 +29,9 @@ const SignUp = () => {
 							fluid
 							size='large'
 							type={inputField.type}
+							onChange={handleChange}
 							label={inputField.label}
+							value={form[inputField.name as keyof typeof form]}
 							placeholder={inputField.placeholder}
 							id={inputField.id}
 						/>

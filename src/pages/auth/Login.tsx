@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom'
 import { Button, Checkbox, Form, Header } from 'semantic-ui-react'
 import '../../assets/sass/main.scss'
-import { Routes } from '../../types/routes.type'
+import useForm from '../../hooks/useForm'
 import loginJson from '../../json/login.json'
 import { IForm } from '../../types/forms.type'
+import { Routes } from '../../types/routes.type'
 
 const Login = () => {
+	const { form, handleChange } = useForm(loginJson)
+
 	return (
 		<Form className='p-10 mx-auto mt-20'>
 			<Header
@@ -13,7 +16,6 @@ const Login = () => {
 				textAlign='center'>
 				Login Your Account
 			</Header>
-
 			{loginJson.map((inputField: IForm) => {
 				return (
 					<Form.Field>
@@ -26,15 +28,17 @@ const Login = () => {
 							}
 							fluid
 							size='large'
+							onChange={handleChange}
 							type={inputField.type}
 							label={inputField.label}
+							name={inputField.name}
+							value={form[inputField.name as keyof typeof form]}
 							placeholder={inputField.placeholder}
 							id={inputField.id}
 						/>
 					</Form.Field>
 				)
 			})}
-
 			<Form.Field>
 				<Checkbox label='Remember me' />
 			</Form.Field>
