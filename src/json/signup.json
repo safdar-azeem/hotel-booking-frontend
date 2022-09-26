@@ -2,6 +2,7 @@
 	{
 		"id": "1",
 		"label": "Name",
+		"name": "name",
 		"type": "text",
 		"placeholder": "Please enter your Name",
 		"ErrorMessage": "Please enter your Name",
@@ -11,6 +12,7 @@
 	{
 		"id": "2",
 		"label": "Email",
+		"name": "email",
 		"type": "email",
 		"placeholder": "Please enter your email",
 		"ErrorMessage": "Please enter a valid email address",
@@ -20,6 +22,7 @@
 	{
 		"id": "3",
 		"label": "Password",
+		"name": "password",
 		"type": "Password",
 		"placeholder": "Please enter your Password",
 		"ErrorMessage": "Please enter a valid Password",
@@ -28,7 +31,8 @@
 
 	{
 		"id": "4",
-		"label": "Password",
+		"label": "Confirm Password",
+		"name": "confirmpassword",
 		"type": "Password",
 		"placeholder": "Please confirm your Password",
 		"ErrorMessage": "Password does not match",
