@@ -32,10 +32,10 @@
 	{
 		"id": "4",
 		"label": "Confirm Password",
-		"name": "confirmpassword",
+		"name": "confirmPassword",
 		"type": "Password",
 		"placeholder": "Please confirm your Password",
-		"ErrorMessage": "Password does not match",
+		"ErrorMessage": "Please confirm your Password",
 		"required": true
 	}
 ]
